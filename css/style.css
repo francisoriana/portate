@@ -210,17 +210,29 @@ footer nav ul li a{
 
 /** Estilos para Contacto **/
 .contacto{
-    display: flex;
-    justify-content: space-around;
+    /**display: flex;
+    justify-content: space-around;*/
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 4fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "section_contacto section_contacto";
 }
 
 .section_contacto{
-    display: block;
+    /**display: block;*/
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #731F73;
-    width: 50%;
+    width: 100%;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 
 .section_contacto img{
@@ -269,14 +281,26 @@ footer nav ul li a{
 
 /** Estilos para Ingresar **/
 .ingresar{
-    display: flex;
-    justify-content: space-around;
+    /**display: flex;
+    justify-content: space-around;*/
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "section_ingresar section_ingresar";
 }
 
 .section_ingresar{
-    display: block;
+    /**display: block;*/
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin-left: 50px;
     margin-right: 50px;
     color: #731F73;
@@ -339,8 +363,12 @@ footer nav ul li a{
     border: #731F73 1px solid;
 }
 
+/** Pseudo classes uses **/
+
 .button:hover{
-    border: #731F73 2px solid;
+    border: #973497 2px solid;
+    background-color: #973497;
+    font-size: larger;
 }
 
 .inputText{
@@ -366,4 +394,41 @@ footer nav ul li a{
 
 .inputTextArea:after{
     border: #11E2FF 1px solid;
+}
+
+/** Media queries for web and mobile - rrsponsive */
+
+@media screen and (max-width:768px){
+    .contacto {  
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "section_contacto section_contacto"
+    }
+
+    .ingresar {  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+          "section_ingresar section_ingresar"
+      }
+  
+  }
+  
+@media screen and (max-width:480px){
+    .contacto {  
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+        "section_contacto"
+        "section_contacto";
+    }
+    
+    .ingresar {  
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          "section_ingresar"
+          "section_ingresar";
+      }
 }
