@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Genos-VariableFont_wght";
+    src: url(../font/genos/Genos-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Plaster-Regular";
+    src: url(../font/Plaster-Regular.ttf);
+}
+
+body{
+    font-family: "Genos-VariableFont_wght";
+}
+
+header{
+    background-image: url(../img/Screenshot_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+
+h1{
+    font-family: Plaster-Regular;
+    color: #11E2FF;
+    font-size: xx-large;
+    padding: 15px;
+    text-align: center;
+}
+
+header div {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+.nav_logo{
+    width: 80px;
+    height: 100px;
+    text-align: left;
+    float: left;
+    padding: 15px;
+}
+
+header nav{
+    background-color: #731F73;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+header nav div{
+    width: 20%;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin: 20px;
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 40px;
+}
+
+footer{
+    background-color: #731F73;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+}
+
+footer a{
+    text-align: right;
+    display: inline-block;
+}
+
+footer nav{
+    background-color: #731F73;    
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    margin: 20px;
+    display: inline-block;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/** Estilos para Inicio **/
+.section_inicio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_inicio img{
+    width: 400px;
+    height: auto;
+    
+}
+
+.section_inicio p{
+    font-size: larger;
+    color: #731F73;
+    width: 400px;
+    padding: 60px;
+}
+
+/** Estilos para Nosotros **/
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_nosotros{
+    display: block;
+    text-align: center;
+}
+
+.section_nosotros img{
+    width: 300px;
+    height: auto;
+    
+}
+
+.section_nosotros h2, .section_nosotros h3, .section_nosotros h4{
+    font-family: Plaster-Regular;
+    color: #731F73;
+    font-size: larger;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.section_nosotros p{
+    font-size: larger;
+    color: #731F73;
+    width: 400px;
+    padding: 60px;
+}
+
+/** Estilos para Servicios **/
+.servicios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_servicios{
+    display: block;
+    text-align: center;
+}
+
+.section_servicios img{
+    width: 300px;
+    height: auto;
+    
+}
+
+.section_servicios h2, .section_servicios h3, .section_servicios h4{
+    font-family: Plaster-Regular;
+    color: #731F73;
+    font-size: larger;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.section_servicios p{
+    font-size: larger;
+    color: #731F73;
+    width: 400px;
+    padding: 60px;
+}
+
+/** Estilos para Contacto **/
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_contacto{
+    display: block;
+    text-align: center;
+    color: #731F73;
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section_contacto img{
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.section_contacto h2{
+    font-family: Plaster-Regular;
+    color: #731F73;
+    font-size: larger;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.section_contacto div{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section_contacto div label{
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+}
+
+.section_contacto div input{
+    width: 100%;
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.section_contacto div textarea{
+    width: 100%;
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+    height: 90px;
+    border-radius: 5px;
+}
+
+
+/** Estilos para Ingresar **/
+.ingresar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_ingresar{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #731F73;
+}
+
+.section_ingresar img{
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.section_ingresar h2, .section_ingresar h3{
+    font-family: Plaster-Regular;
+    color: #731F73;
+    font-size: larger;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.section_ingresar div{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section_ingresar div label{
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+}
+
+.section_ingresar div input{
+    width: 100%;
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#log_in{
+    background-image: url(../img/Screenshot_14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+
+/** Common styles **/
+
+.button{
+    background-color: #731F73;
+    border: none;
+    color: white;
+    font-family: "Genos-VariableFont_wght";
+    font-size: medium;
+    height: 50px;
+    border-radius: 5px;
+    border: #731F73 1px solid;
+}
+
+.button:hover{
+    border: #731F73 2px solid;
+}
+
+.inputText{
+    border: #11E2FF 1px solid;
+}
+
+.inputText:hover, .inputText:focus{
+    border: #11E2FF 2px solid;
+}
+
+.inputText:after{
+    border: #11E2FF 1px solid;
+}
+
+
+.inputTextArea{
+    border: #11E2FF 1px solid;
+}
+
+.inputTextArea:hover, .inputText:focus{
+    border: #11E2FF 2px solid;
+}
+
+.inputTextArea:after{
+    border: #11E2FF 1px solid;
+}
