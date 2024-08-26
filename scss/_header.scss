@@ -1,0 +1,60 @@
+header{
+    background-image: url(../img/Screenshot_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    div{
+        width: 100%;
+        height: 100px;
+        display: inline-block;
+
+        h1{
+            font-family: $font-brand;
+            color: $color-highlight;
+            font-size: xx-large;
+            padding: 15px;
+            text-align: center;
+        }
+    }
+
+    nav{
+        background-color: $color-main;   
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+
+        div{
+            width: 20%;
+
+            .nav_logo{
+                width: 80px;
+                height: 100px;
+                text-align: left;
+                float: left;
+                padding: 15px;
+            }
+        }
+
+        ul{
+            list-style-type: none;
+
+            li{
+                margin: 20px;
+                display: inline-block;
+
+                a{
+                    color: $color-light;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    margin: 40px;
+                }
+            }
+        }
+    }
+    
+}

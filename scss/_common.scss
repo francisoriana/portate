@@ -1,0 +1,44 @@
+
+/** Common styles **/
+/** Pseudo classes uses **/
+
+.button{
+    background-color: $color-main;
+    border: none;
+    color: $color-light;
+    font-family: $font-main;
+    font-size: medium;
+    height: 50px;
+    border-radius: 5px;
+    border: $color-main 1px solid;
+
+    &:hover{
+        border: $color-main-light 2px solid;
+        background-color: $color-main-light;
+        font-size: larger;
+    }
+}
+
+.inputText{
+    border: $color-highlight 1px solid;
+
+    &:hover, &:focus{
+        border: $color-highlight 2px solid;
+    }
+
+    &:after{
+        border: $color-highlight 1px solid;
+    }
+}
+
+.inputTextArea{
+    border: $color-highlight 1px solid;
+
+    &:hover, &:focus{
+        border: $color-highlight 2px solid;
+    }
+    
+    &:after{
+        border: $color-highlight 1px solid;
+    }
+}

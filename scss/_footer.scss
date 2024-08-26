@@ -1,0 +1,44 @@
+footer{
+    background-color: $color-main;
+    color: $color-light;
+    text-align: right;
+    padding: 10px;
+
+    img{
+        width: 50px;
+        height: auto;
+        text-align: right;
+        display: inline-block;
+    }
+
+    a{
+        text-align: right;
+        display: inline-block;
+    }
+
+    nav{
+        background-color: $color-main;    
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            list-style-type: none;
+
+            li{
+                margin: 20px;
+                display: inline-block;
+
+                a{
+                    color: $color-light;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

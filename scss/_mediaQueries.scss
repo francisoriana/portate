@@ -1,0 +1,37 @@
+
+/** Media queries for web and mobile - responsive */
+
+@media screen and (max-width:768px){
+    .contacto {  
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "section_contacto section_contacto"
+    }
+
+    .ingresar {  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+          "section_ingresar section_ingresar"
+      }
+  
+  }
+  
+@media screen and (max-width:480px){
+    .contacto {  
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+        "section_contacto"
+        "section_contacto";
+    }
+    
+    .ingresar {  
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          "section_ingresar"
+          "section_ingresar";
+      }
+}

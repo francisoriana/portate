@@ -1,0 +1,21 @@
+
+main{
+    /** Estilos para Inicio **/
+    .section_inicio{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            width: 400px;
+            height: auto;            
+        }
+
+        p{
+            font-size: larger;
+            color: $color-main;
+            width: 400px;
+            padding: 60px;
+        }
+    }
+    
+}
