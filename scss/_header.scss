@@ -2,7 +2,7 @@ header{
     background-image: url(../img/Screenshot_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: auto;
 
     div{
@@ -32,11 +32,12 @@ header{
             width: 20%;
 
             .nav_logo{
-                width: 80px;
-                height: 100px;
+                width: 110px;
+                height: 140px;
                 text-align: left;
                 float: left;
-                padding: 15px;
+                /*padding: 15px;*/
+                margin-left: 25px;
             }
         }
 
